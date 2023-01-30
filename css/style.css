@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;
+    
     
 }
 /* end-structural-setting */
@@ -51,7 +51,7 @@ main{
 
 /* start-img-section-setting */
 .tim-img{
-    height: 450px;
+    height: 550px;
     width: 48%;
     margin-top: 20px;
 }
@@ -60,3 +60,57 @@ main{
     font-size: 0.85rem;
 }
 /* end-img.section-setting */
+
+/* start-text-setting */
+.text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.yellow-text{
+    background-color: yellow;
+}
+/* end-text-setting */
+
+/* start-ul-setting */
+.unordered-list{
+ padding-left: 20px;
+ font-size: 1.5rem;
+    
+}
+/* end-ul-setting */
+
+/* start-table-setting */
+table{
+    margin-top: 30px;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.table-head{
+    background-color: rgb(22, 127, 168);
+    width: 100%; 
+}
+
+th{
+    color: aliceblue;
+    font-size: 1.5rem;
+    width: 33%;
+}
+.table-body{
+    background-color: lightblue;
+}
+
+.table-body-w{
+    background-color: white;
+}
+
+td{
+    font-size: 1.5rem;
+}
+
+
+
+    
+    
