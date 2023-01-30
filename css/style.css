@@ -2,17 +2,41 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    
 }
 
 header{
     height: 170px;
     background-image: url(../img/pattern.png);
-    background-color: lightblue;
+    background-color: rgb(43, 128, 240);
 }
 
 .logo{
     height: 17rem;
     width: 17rem;
+    padding-bottom: 20px;
    
     
+}
+
+main{
+    margin-left: 5px;
+}
+
+.main-title{
+    font-size: 3rem;
+}
+
+.first-insertion{
+    font-weight: 800;
+    color: rgb(131, 128, 128);
+}
+
+#booleaner-link{
+    text-decoration: none;
+    color: rgb(15, 91, 231);
+}
+
+#date{
+    font-size: 0.8rem;
 }
